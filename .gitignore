@@ -1,25 +1,62 @@
-# Временные файлы PowerShell
-*.tmp
+# PowerShell
+*.ps1.bak
+*.ps1.orig
+*.ps1.tmp
+*.ps1.log
+
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Logs
 *.log
+logs/
 
-# Файлы конфигурации (будут создаваться автоматически)
-git-1c.config.json
-
-# Тестовые файлы
-test-*.ps1
-
-# Резервные копии
+# Temporary files
+*.tmp
+*.temp
 *.bak
 *.backup
 
-# Файлы IDE
-.vscode/
-.idea/
+# Configuration files (keep example)
+git-1c.config.json
+!git-1c.config.example.json
 
-# Системные файлы Windows
-Thumbs.db
-Desktop.ini
+# Backup files
+backups/
+*.dt
 
-# Логи
-logs/
-*.log
+# Test files
+test-*
+*test*
+
+# Documentation build
+docs/_build/
+site/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?
+
+# PowerShell specific
+*.psm1.bak
+*.psd1.bak
+*.ps1xml.bak
+
+# Module specific
+Modules/
+Scripts/
+Tests/
