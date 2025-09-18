@@ -1,0 +1,25 @@
+# Временные файлы PowerShell
+*.tmp
+*.log
+
+# Файлы конфигурации (будут создаваться автоматически)
+git-1c.config.json
+
+# Тестовые файлы
+test-*.ps1
+
+# Резервные копии
+*.bak
+*.backup
+
+# Файлы IDE
+.vscode/
+.idea/
+
+# Системные файлы Windows
+Thumbs.db
+Desktop.ini
+
+# Логи
+logs/
+*.log
